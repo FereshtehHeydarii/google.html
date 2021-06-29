@@ -1,0 +1,71 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+a{
+    margin-left: 20px;
+    font-weight: bolder;
+    text-decoration-line: none;
+}
+a:hover{
+    text-decoration-line: underline;
+}
+a:link{
+    color: rgb(0, 0, 0);
+}
+a:visited{
+    color: rgb(92, 0, 121);
+}
+
+.header{
+    width: 100%;
+    overflow: hidden;   
+}
+.container{
+    width: 600px;
+    margin:auto;
+    margin-top: 8%;
+}
+.logo{
+    width: 550px;
+    text-align: center;
+}
+.google-search{
+    width: 500px;
+    margin:auto;
+    text-align: center;
+    padding: 5px 0px;
+}
+input[type=search]{
+    width: 500px;
+    height: 40px;
+    border-radius: 26px;
+    outline: none;
+    font-size: 20px;
+    text-align: center;
+    user-select: none;
+}
+input:focus{
+    text-shadow: 2px 2px 4px rgb(6, 73, 112);
+}
+#submit{
+    position: absolute;
+    background-color: #fff;
+    border: none;
+    height: 0px;
+    width: 0px;
+    margin-left: 20px;
+    margin-top: 8px;
+}
+#voice-search{
+    position: absolute;
+    background-color: #fff;
+    border: none;
+    height: 0px;
+    width: 0px;
+    margin-left: -60px;
+    margin-top: 6px;
+}
+
